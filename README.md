@@ -6,6 +6,7 @@
 Remember solutions are only solutions to given problems. If you want full study checklist for code & whiteboard interview, please turn to [jwasham's coding-interview-university](https://github.com/jwasham/coding-interview-university).
 
 Done List:
+
 | # | Title | Solution |
 |---| ----- | -------- |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/001_Two_Sum.py)|
@@ -15,6 +16,7 @@ Done List:
 
 
 ToDo List :
+
 | # | Title |
 |---| ----- |
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) |
