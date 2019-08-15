@@ -7,6 +7,7 @@ from typing import List
 
 
 class Solution:
+    # merge sort
     # def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
     #     m, n = len(nums1), len(nums2)
     #     i = j = 0
@@ -30,19 +31,7 @@ class Solution:
     #     else:
     #         return nums3[mid]
 
-    def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
-        nums1, nums2 = sorted((nums1, nums2), key=len)
-        m, n = len(nums1), len(nums2)
-        mid = (m + n - 1) >> 1
-
-        class Range:
-            def __getitem__(self, idx):
-                return mid - idx - 1 < 0 or nums1[idx] >= nums2[mid - idx - 1]
-
-        mid_idx = bisect.bisect_left(Range(), True, 0, m)
-        mid_nums = sorted(nums1[mid_idx:mid_idx + 2] + nums2[mid - mid_idx:mid - mid_idx + 2])
-        return (mid_nums[0] + mid_nums[1 - (m + n) % 2]) / 2.0
-
+    # binary search: self-made
     # def findMedianSortedArrays(self, nums1, nums2):
     #     nums1, nums2 = sorted((nums1, nums2), key=len)
     #     m, n = len(nums1), len(nums2)
@@ -57,6 +46,20 @@ class Solution:
     #     mid_idx = low
     #     mid_nums = sorted(nums1[mid_idx:mid_idx + 2] + nums2[mid - mid_idx:mid - mid_idx + 2])
     #     return (mid_nums[0] + mid_nums[1 - (m + n) % 2]) / 2.0
+
+    # binary search: bisect.bisect_left
+    def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
+        nums1, nums2 = sorted((nums1, nums2), key=len)
+        m, n = len(nums1), len(nums2)
+        mid = (m + n - 1) >> 1
+
+        class Range:
+            def __getitem__(self, idx):
+                return mid - idx - 1 < 0 or nums1[idx] >= nums2[mid - idx - 1]
+
+        mid_idx = bisect.bisect_left(Range(), True, 0, m)
+        mid_nums = sorted(nums1[mid_idx:mid_idx + 2] + nums2[mid - mid_idx:mid - mid_idx + 2])
+        return (mid_nums[0] + mid_nums[1 - (m + n) % 2]) / 2.0
 
 
 def main():

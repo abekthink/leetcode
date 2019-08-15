@@ -14,7 +14,7 @@ class Solution:
     #         for j in range(i + 1, ln):
     #             if nums[i] + nums[j] == target:
     #                 return [i, j]
-    #
+
     # def twoSum(self, nums: List[int], target: int) -> List[int]:
     #     if nums is None or len(nums) < 2:
     #         return []

@@ -11,6 +11,7 @@ class ListNode:
 
 
 class Solution:
+    # 1st version:
     # def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
     #     p1, p2 = l1, l2
     #     head, tail = None, None
@@ -48,6 +49,7 @@ class Solution:
     #         tail.next = ListNode(carry)
     #     return head
 
+    # 2nd version:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
         head = tail = ListNode(0)
         carry = 0
