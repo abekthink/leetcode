@@ -19,7 +19,6 @@ Done List:
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0008_String_to_Integer.py) |
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0009_Palindrome_Number.py) |
 
-
 ToDo List :
 
 | # | Title |
