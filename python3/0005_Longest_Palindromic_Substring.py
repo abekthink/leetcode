@@ -74,7 +74,7 @@ class Solution:
         R: the next element to be examined (initially 0)
         C: the largest/left-most palindrome whose right boundary is R-1 (initially 0)
         i: the next palindrome to be calculated (initially 1)
-        
+
         p[i]: palindrome radius in index-i position of T
         p[i] - 1: length of palindrome substring in s
 
@@ -86,6 +86,7 @@ class Solution:
         https://www.cnblogs.com/grandyang/p/4475985.html
         https://blog.csdn.net/qxqxqzzz/article/details/84800939
         https://leetcode.com/problems/longest-palindromic-substring/discuss/3337/Manacher-algorithm-in-Python-O(n)
+        http://solutionleetcode.blogspot.com/2013/07/leetcode-longest-palindromic-substring.html
         http://en.wikipedia.org/wiki/Longest_palindromic_substring
 
         :param s: Given a string
