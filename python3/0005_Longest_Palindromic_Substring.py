@@ -71,12 +71,14 @@ class Solution:
         """
         Manacher's Algorithm:
         s -> T: abc -> ^#a#b#c#$
-        idx: center of the palindrome substring
-        mx: right side of the palindrome substring
+        R: the next element to be examined (initially 0)
+        C: the largest/left-most palindrome whose right boundary is R-1 (initially 0)
+        i: the next palindrome to be calculated (initially 1)
+        
         p[i]: palindrome radius in index-i position of T
         p[i] - 1: length of palindrome substring in s
 
-        p[i] = mx > i ? min(p[2 * idx - i], mx - i) : 1
+        p[i] = R > i ? min(p[2 * C - i], R - i) : 1
 
         time complexity: O(n)
 
@@ -92,17 +94,17 @@ class Solution:
         T = '#'.join('^{}$'.format(s))
         n = len(T)
         p = [0] * n
-        idx = mx = 0
+        C = R = 0
         for i in range(1, n - 1):
-            p[i] = (mx > i) and min(mx - i, p[2 * idx - i])  # equals to i' = C - (i-C)
+            p[i] = (R > i) and min(R - i, p[2 * C - i])  # equals to i' = C - (i-C)
             # Attempt to expand palindrome centered at i
             while T[i + 1 + p[i]] == T[i - 1 - p[i]]:
                 p[i] += 1
 
             # If palindrome centered at i expand past R,
             # adjust center based on expanded palindrome.
-            if i + p[i] > mx:
-                idx, mx = i, i + p[i]
+            if i + p[i] > R:
+                C, R = i, i + p[i]
 
         # Find the maximum element in P.
         max_len, center_index = max((n, i) for i, n in enumerate(p))
