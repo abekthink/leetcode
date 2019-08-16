@@ -16,14 +16,15 @@ Done List:
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0005_Longest_Palindromic_Substring.py) |
 | 6 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0006_ZigZag_Conversion.py) |
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0007_Reverse_Integer.py) |
-| 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0008_String_to_Integer(atoi).py) |
+| 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0008_String_to_Integer.py) |
+| 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0009_Palindrome_Number.py) |
 
 
 ToDo List :
 
 | # | Title |
 |---| ----- |
-| 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) |
+
 | 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) |
 | 15 | [3Sum](https://leetcode.com/problems/3sum/) |
