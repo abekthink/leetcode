@@ -4,6 +4,35 @@
 
 
 class Solution:
+    # def longestPalindrome(self, s):
+    #     """
+    #     :type s: str
+    #     :rtype: str
+    #     """
+    #     if not s or len(s) <= 1:
+    #         return s
+    #     length = len(s)
+    #     min_start = 0
+    #     max_len = 1
+    #     mid = 0
+    #     while mid + max_len >> 1 < length:
+    #         left = mid
+    #         right = mid
+    #         print("#", mid, left, right)
+    #         while right < length - 1 and s[right] == s[right + 1]:
+    #             right += 1
+    #         print("##", mid, left, right)
+    #         mid = right + 1
+    #         print("###", mid, left, right)
+    #         while right < length - 1 and left > 0 and s[right + 1] == s[left - 1]:
+    #             right += 1
+    #             left -= 1
+    #         print("####", mid, left, right)
+    #         if right - left + 1 > max_len:
+    #             min_start = left
+    #             max_len = right - left + 1
+    #     return s[min_start: min_start + max_len]
+
     # def longestPalindrome(self, s: str) -> str:
     #     """
     #     dynamic programming:
@@ -84,6 +113,7 @@ def main():
     s = Solution()
     print(s.longestPalindrome("babad"))
     print(s.longestPalindrome("cbbd"))
+    print(s.longestPalindrome("abcbaa"))
 
 
 if __name__ == '__main__':
