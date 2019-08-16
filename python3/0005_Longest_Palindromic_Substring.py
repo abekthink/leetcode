@@ -5,10 +5,6 @@
 
 class Solution:
     # def longestPalindrome(self, s):
-    #     """
-    #     :type s: str
-    #     :rtype: str
-    #     """
     #     if not s or len(s) <= 1:
     #         return s
     #     length = len(s)
@@ -18,16 +14,12 @@ class Solution:
     #     while mid + max_len >> 1 < length:
     #         left = mid
     #         right = mid
-    #         print("#", mid, left, right)
     #         while right < length - 1 and s[right] == s[right + 1]:
     #             right += 1
-    #         print("##", mid, left, right)
     #         mid = right + 1
-    #         print("###", mid, left, right)
     #         while right < length - 1 and left > 0 and s[right + 1] == s[left - 1]:
     #             right += 1
     #             left -= 1
-    #         print("####", mid, left, right)
     #         if right - left + 1 > max_len:
     #             min_start = left
     #             max_len = right - left + 1
