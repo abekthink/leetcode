@@ -14,13 +14,13 @@ Done List:
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0003_Longest_Substring_Without_Repeating_Characters.py) |
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0004_Median_of_Two_Sorted_Arrays.py) |
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0005_Longest_Palindromic_Substring.py) |
+| 6 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0006_ZigZag_Conversion.py) |
 
 
 ToDo List :
 
 | # | Title |
 |---| ----- |
-| 6 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) |
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) |
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) |
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) |
