@@ -8,8 +8,8 @@ class Solution:
         if x < 0:
             return False
         s = str(x)
-        mid_len = len(s) >> 1
-        for i in range(mid_len):
+        semi_len = len(s) >> 1
+        for i in range(semi_len):
             if s[i] != s[-(i + 1)]:
                 return False
         return True
