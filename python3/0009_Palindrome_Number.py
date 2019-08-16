@@ -7,12 +7,8 @@ class Solution:
     def isPalindrome(self, x: int) -> bool:
         if x < 0:
             return False
-        if 10 > x >= 0:
-            return True
-
         s = str(x)
-        ln = len(s)
-        mid_len = ln >> 1
+        mid_len = len(s) >> 1
         for i in range(mid_len):
             if s[i] != s[-(i + 1)]:
                 return False
