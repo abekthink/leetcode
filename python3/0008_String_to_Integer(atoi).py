@@ -4,8 +4,10 @@
 
 import re
 
-MAX_INT = 2 ** 31 - 1
-MIN_INT = -2 ** 31
+from math import pow
+
+MAX_INT = int(pow(2, 31)) - 1
+MIN_INT = -int(pow(2, 31))
 
 
 class Solution:
