@@ -1,7 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # author: abekthink
-import sys
+
+MAX_INT = 2 ** 31 - 1
+MIN_INT = -2 ** 31
 
 
 class Solution:
@@ -37,8 +39,6 @@ class Solution:
         if x == 0:
             return 0
 
-        max_int = 2 ** 31 - 1
-        min_int = -2 ** 31
         negative = False
         if x < 0:
             x = -x
@@ -53,7 +53,7 @@ class Solution:
         if negative:
             reversed_num = -reversed_num
 
-        if reversed_num > max_int or reversed_num < min_int:
+        if reversed_num > MAX_INT or reversed_num < MIN_INT:
             return 0
         return reversed_num
 
