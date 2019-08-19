@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 # author: abekthink
 
-from random import randint
 from typing import List
 
 
@@ -30,6 +29,7 @@ class Solution:
     # def maxArea(self, height: List[int]) -> int:
     #     ln = len(height)
     #     # ri, rj =0, ln - 1
+    #     from random import randint
     #     ri, rj = randint(0, ln - 1), randint(0, ln - 1)
     #     max_area = min(height[ri], height[rj]) * abs(rj - ri)
     #     for i in range(ln):
@@ -41,29 +41,33 @@ class Solution:
     #             max_area = max(min(height[i], height[j]) * (j - i), max_area)
     #     return max_area
 
+    # def maxArea(self, height: List[int]) -> int:
+    #     ln = len(height)
+    #     low, high, max_area, min_height = 0, ln - 1, 0, 0
+    #     while low < high:
+    #         while height[low] < min_height and low < ln:
+    #             low += 1
+    #         while height[high] < min_height and high >= 0:
+    #             high -= 1
+    #         if low >= high:
+    #             break
+    #
+    #         m = min(height[low], height[high])
+    #         if m * (high - low) > max_area:
+    #             max_area = m * (high - low)
+    #             min_height = m
+    #
+    #         if height[low] < height[high]:
+    #             low += 1
+    #         else:
+    #             high -= 1
+    #     return max_area
+
     def maxArea(self, height: List[int]) -> int:
-        ln = len(height)
-        low, high = 0, ln - 1
-        min_height = min(height[low], height[high])
-        max_area = min_height * (ln - 1)
-
+        low, high, max_area = 0, len(height) - 1, 0
         while low < high:
-            while height[low] < min_height and low < ln:
-                low += 1
-            while height[high] < min_height and high >= 0:
-                high -= 1
-            if low >= high:
-                break
-
-            m = min(height[low], height[high])
-            if m * (high - low) > max_area:
-                max_area = m * (high - low)
-                min_height = m
-
-            if height[low] < height[high]:
-                low += 1
-            else:
-                high -= 1
+            max_area = max((high - low) * min(height[low], height[high]), max_area)
+            low, high = low + (height[low] < height[high]), high - (height[low] >= height[high])
         return max_area
 
 
