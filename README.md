@@ -24,6 +24,7 @@ Done List:
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0013_Roman_to_Integer.py) |  |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0014_Longest_Common_Prefix.py) |  |
 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0015_3Sum.py) |  |
+| 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0016_3Sum_Closest.py) |  |
 
 
 ToDo List :
