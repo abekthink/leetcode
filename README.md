@@ -25,13 +25,13 @@ Done List:
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0014_Longest_Common_Prefix.py) |  |
 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0015_3Sum.py) |  |
 | 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0016_3Sum_Closest.py) | #15 |
+| 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0017_Letter_Combinations_of_a_Phone_Number.py) | DFS |
 
 
-ToDo List :
+ToDo List:
 
 | # | Title |
 |---| ----- |
-| 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) |
 | 18 | [4Sum](https://leetcode.com/problems/4sum/) |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) |
