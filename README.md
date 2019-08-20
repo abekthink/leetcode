@@ -26,13 +26,14 @@ Done List:
 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0015_3Sum.py) |  |
 | 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0016_3Sum_Closest.py) | #15 |
 | 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0017_Letter_Combinations_of_a_Phone_Number.py) | DFS |
+| 18 | [4Sum](https://leetcode.com/problems/4sum/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0018_4Sum.py) | #15 #16 |
+| 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0019_Remove_Nth_Node_From_End_of_List.py) |  |
 
 
 ToDo List:
 
 | # | Title |
 |---| ----- |
-| 18 | [4Sum](https://leetcode.com/problems/4sum/) |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) |
 | 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) |
