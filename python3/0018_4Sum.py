@@ -47,9 +47,9 @@ class Solution:
 
 def main():
     s = Solution()
-    # print(s.fourSum([1, 0, -1, 0, -2, 2], 0))
-    # print(s.fourSum([0 for _ in range(3000)], 0))
-    # print(s.fourSum([-1, 0, 1, 2, -1, -4], -1))
+    print(s.fourSum([1, 0, -1, 0, -2, 2], 0))
+    print(s.fourSum([0 for _ in range(3000)], 0))
+    print(s.fourSum([-1, 0, 1, 2, -1, -4], -1))
     print(s.fourSum([1, -2, -5, -4, -3, 3, 3, 5], -11))
 
 
