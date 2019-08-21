@@ -2,9 +2,8 @@
 # -*- coding: utf-8 -*-
 # author: abekthink
 
-import re
 
-from math import pow
+from python3 import re, pow
 
 MAX_INT = int(pow(2, 31)) - 1
 MIN_INT = -int(pow(2, 31))

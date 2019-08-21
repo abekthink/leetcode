@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # author: abekthink
 
-from typing import List
+from python3 import List
 
 
 class Solution:

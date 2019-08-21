@@ -1,3 +1,37 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # author: abekthink
+
+import re
+import json
+import bisect
+
+from math import pow
+from typing import List
+from collections import defaultdict
+
+
+# Definition for singly-linked list.
+class ListNode:
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+
+
+def stringToIntegerList(input):
+    return json.loads(input)
+
+
+def stringToListNode(input):
+    # Generate list from the input
+    numbers = stringToIntegerList(input)
+
+    # Now convert that list into linked list
+    dummyRoot = ListNode(0)
+    ptr = dummyRoot
+    for number in numbers:
+        ptr.next = ListNode(number)
+        ptr = ptr.next
+
+    ptr = dummyRoot.next
+    return ptr

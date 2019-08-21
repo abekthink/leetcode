@@ -2,8 +2,7 @@
 # -*- coding: utf-8 -*-
 # author: abekthink
 
-import bisect
-from typing import List
+from python3 import List
 
 
 class Solution:

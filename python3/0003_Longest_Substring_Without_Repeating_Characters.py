@@ -2,7 +2,8 @@
 # -*- coding: utf-8 -*-
 # author: abekthink
 
-from collections import defaultdict
+
+from python3 import defaultdict
 
 
 class Solution:
