@@ -5,6 +5,7 @@
 import re
 import json
 import bisect
+import heapq
 
 from math import pow
 from typing import List
@@ -19,23 +20,33 @@ class ListNode:
         self.next = None
 
 
-def stringToIntegerList(input):
-    return json.loads(input)
-
-
-def stringToListNode(input):
-    # Generate list from the input
-    numbers = stringToIntegerList(input)
-
+def listToListNode(ls):
     # Now convert that list into linked list
     dummyRoot = ListNode(0)
     ptr = dummyRoot
-    for number in numbers:
+    for number in ls:
         ptr.next = ListNode(number)
         ptr = ptr.next
 
     ptr = dummyRoot.next
     return ptr
+
+
+def stringToListNode(input):
+    # Generate list from the input
+    numbers = json.loads(input)
+    return listToListNode(numbers)
+
+
+def stringToListNodeArray(input):
+    # Generate list from the input
+    lists = json.loads(input)
+
+    # Now convert that two dimension list into linked list array
+    res = []
+    for ls in lists:
+        res.append(listToListNode(ls))
+    return res
 
 
 def listNodeToString(node):
