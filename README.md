@@ -11,7 +11,7 @@ Done List:
 |---| ----- | -------- | -------- |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0001_Two_Sum.py)|  |
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0002_Add_Two_Numbers.py)|  |
-| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0003_Longest_Substring_Without_Repeating_Characters.py) |  |
+| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0003_Longest_Substring_Without_Repeating_Characters.py) | Sliding Window |
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0004_Median_of_Two_Sorted_Arrays.py) | Divide and Conquer / Binary Search |
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0005_Longest_Palindromic_Substring.py) | Dynamic Programming / Manacher's Algorithm |
 | 6 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0006_ZigZag_Conversion.py) |  |
@@ -29,13 +29,13 @@ Done List:
 | 18 | [4Sum](https://leetcode.com/problems/4sum/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0018_4Sum.py) | Two Pointers |
 | 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0019_Remove_Nth_Node_From_End_of_List.py) | Two Pointers |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)  | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0020_Valid_Parentheses.py) | Stack |
+| 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0021_Merge_Two_Sorted_Lists.py) | Two Pointers |
 
 
 ToDo List:
 
 | # | Title |
 |---| ----- |
-| 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) |
 | 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) |
 | 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) |
 | 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) |
