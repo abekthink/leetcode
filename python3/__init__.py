@@ -35,3 +35,14 @@ def stringToListNode(input):
 
     ptr = dummyRoot.next
     return ptr
+
+
+def listNodeToString(node):
+    if not node:
+        return "[]"
+
+    result = ""
+    while node:
+        result += str(node.val) + ", "
+        node = node.next
+    return "[" + result[:-2] + "]"
