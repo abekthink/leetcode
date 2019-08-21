@@ -31,13 +31,13 @@ Done List:
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)  | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0020_Valid_Parentheses.py) | Stack |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0021_Merge_Two_Sorted_Lists.py) | Two Pointers |
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0022_Generate_Parentheses.py) | Backtracking(DFS) |
+| 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0023_Merge_k_Sorted_Lists.py) | Divide and Conquer / Heap |
 
 
 ToDo List:
 
 | # | Title |
 |---| ----- |
-| 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) |
 | 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) |
 | 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) |
