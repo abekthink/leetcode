@@ -31,7 +31,8 @@ Done List:
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0022_Generate_Parentheses.py) | Backtracking(DFS) |
 | 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0023_Merge_k_Sorted_Lists.py) | Divide and Conquer / Heap |
 | 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0024_Swap_Nodes_in_Pairs.py) |  |
-| 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0025_Reverse_Nodes_in_k-Group.py) |  |
+| 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0025_Reverse_Nodes_in_k_Group.py) |  |
+| 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0026_Remove_Duplicates_from_Sorted_Array.py) |  |
 
 
 ToDo List:
