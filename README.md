@@ -1,9 +1,7 @@
 # leetcode
 
 
-# Solutions for Leetcode (inspired by [qiyuangong's leetcode](https://github.com/qiyuangong/leetcode))
-
-Remember solutions are only solutions to given problems. If you want full study checklist for code & whiteboard interview, please turn to [jwasham's coding-interview-university](https://github.com/jwasham/coding-interview-university).
+# Solutions for Leetcode
 
 Done List:
 
@@ -33,6 +31,7 @@ Done List:
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0022_Generate_Parentheses.py) | Backtracking(DFS) |
 | 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0023_Merge_k_Sorted_Lists.py) | Divide and Conquer / Heap |
 | 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0024_Swap_Nodes_in_Pairs.py) |  |
+| 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0025_Reverse_Nodes_in_k-Group.py) |  |
 
 
 ToDo List:
@@ -228,6 +227,7 @@ ToDo List:
 | 1064 | [Fixed Point](https://leetcode.com/problems/fixed-point/) &hearts; |
 
 
-# Other Leetcode Repos
+# Related Repos
 1. [haoel's leetcode](https://github.com/haoel/leetcode)
 2. [qiyuangong's leetcode](https://github.com/qiyuangong/leetcode)
+3. [jwasham's coding-interview-university](https://github.com/jwasham/coding-interview-university).
