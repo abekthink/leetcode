@@ -35,13 +35,13 @@ Done List:
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0026_Remove_Duplicates_from_Sorted_Array.py) |  |
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0027_Remove_Element.py) |  |
 | 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0028_Implement_strStr.py) |  |
+| 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0029_Divide_Two_Integers.py) |  |
 
 
 ToDo List:
 
 | # | Title |
 |---| ----- |
-| 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) |
 | 46 | [Permutations](https://leetcode.com/problems/permutations/) |
 | 47 | [Permutations II](https://leetcode.com/problems/permutations-ii/) |
