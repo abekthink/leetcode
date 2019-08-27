@@ -8,7 +8,7 @@ from python3 import List
 class Solution:
     # def maxArea(self, height: List[int]) -> int:
     #     """
-    #     Dynamic programming
+    #     Dynamic Programming:
     #
     #     dp[i][j]: means the max area between i and j
     #
