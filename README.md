@@ -36,6 +36,7 @@ Done List:
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0027_Remove_Element.py) |  |
 | 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0028_Implement_strStr.py) |  |
 | 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0029_Divide_Two_Integers.py) |  |
+| 30 | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0030_Substring_with_Concatenation_of_All_Words.py) | Two Pointers |
 
 
 ToDo List:
