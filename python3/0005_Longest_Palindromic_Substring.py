@@ -27,7 +27,7 @@ class Solution:
 
     # def longestPalindrome(self, s: str) -> str:
     #     """
-    #     dynamic programming:
+    #     Dynamic Programming:
     #
     #     dp[i][j]: boolean, represent s[i: j+1] whether is palindrome
     #
