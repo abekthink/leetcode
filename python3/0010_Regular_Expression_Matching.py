@@ -26,7 +26,7 @@ class Solution:
 
     def isMatch(self, s: str, p: str) -> bool:
         """
-        Dynamic programming
+        Dynamic Programming
 
         dp[i][j]: means first j letters of p can match first i letters of s
 
