@@ -39,6 +39,7 @@ Done List:
 | 30 | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0030_Substring_with_Concatenation_of_All_Words.py) | Two Pointers |
 | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0031_Next_Permutation.py) |  |
 | 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0032_Longest_Valid_Parentheses.py) | Stack / Dynamic Programming |
+| 32 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0033_Search_in_Rotated_Sorted_Array.py) | Binary Search |
 
 
 ToDo List:
