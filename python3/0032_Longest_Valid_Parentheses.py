@@ -20,6 +20,10 @@ class Solution:
     #     return ans
 
     def longestValidParentheses(self, s: str) -> int:
+        """
+        Dynamic Programming
+        dp[i]: the longest length valid parentheses which ends with s[i-1]
+        """
         length = len(s)
         if length < 2:
             return 0
