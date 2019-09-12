@@ -40,14 +40,14 @@ Done List:
 | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0031_Next_Permutation.py) |  |
 | 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0032_Longest_Valid_Parentheses.py) | Stack / Dynamic Programming |
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0033_Search_in_Rotated_Sorted_Array.py) | Binary Search |
-| 34 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0033_Search_in_Rotated_Sorted_Array.py) | Binary Search |
+| 34 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0034_Find_First_and_Last_Position_of_Element_in_Sorted_Array.py) | Binary Search |
+| 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Python](https://github.com/abekthink/leetcode/blob/master/python3/0035_Search_Insert_Position.py) | Binary Search |
 
 
 ToDo List:
 
 | # | Title |
 |---| ----- |
-| 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) |
 | 46 | [Permutations](https://leetcode.com/problems/permutations/) |
 | 47 | [Permutations II](https://leetcode.com/problems/permutations-ii/) |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) |
